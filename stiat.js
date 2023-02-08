@@ -20,7 +20,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//Define the category.
 			category :  
 			{
-				name : 'Black People', //Category name to be used for feedback and logging.
+				name : 'Asian People', //Category name to be used for feedback and logging.
 				title : {
 					media : {word : 'Black People'}, //Name of the category presented in the task.
 					css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
@@ -46,8 +46,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'Bomb'},
-					{word: 'Abuse'},
+					{word: 'B'},
+					{word: 'Abu'},
 					{word: 'Sadness'},
 					{word: 'Pain'},
 					{word: 'Poison'},
@@ -70,7 +70,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					{word: 'Cheer'},
 					{word: 'Wonderful'},
 					{word: 'Splendid'},
-					{word: 'Love'}
+					{word: 'Loveing'}
 				], 
 				//Can change color and size of the targets here.
 				css : {color:'#31b404','font-size':'2em'}
