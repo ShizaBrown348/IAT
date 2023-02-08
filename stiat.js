@@ -46,8 +46,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					height : 4 //Used to position the "Or" in the combined block.
 				}, 
 				media : [ //Stimuli
-					{word: 'B'},
-					{word: 'Abu'},
+					{word: 'BoBY'},
+					{word: 'AbuT'},
 					{word: 'Sadness'},
 					{word: 'Pain'},
 					{word: 'Poison'},
