@@ -4,17 +4,20 @@ define(['pipAPI', 'https://github.com/ShizaBrown348/IAT/blob/main/stiat.js'], fu
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Black people', //Will appear in the data.
+		    name : 'Blackissshhhh people', //Will appear in the data.
 		    title : {
 		      media : {word : 'Black people'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'broke jpg.jpg'}, 
-    			{image : 'indigent jpg.png'}, 
-    			{image : 'destitute jpg.png'}, 
-    			{image : 'impoverished jpg.jpg'}
+    		    	{image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+    			{image : 'black5.jpg'}, 
+    			{image : 'black6.jpg'}
+
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -29,9 +32,9 @@ define(['pipAPI', 'https://github.com/ShizaBrown348/IAT/blob/main/stiat.js'], fu
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
+				{word: 'Bomby'},
+				{word: 'Abusey'},
+				{word: 'Sadnessy'},
 				{word: 'Pain'},
 				{word: 'Poison'},
 				{word: 'Grief'}
