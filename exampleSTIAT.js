@@ -30,12 +30,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'BomBY'},
-				{word: 'AbuBY'},
-				{word: 'SadneBY'},
-				{word: 'PainBY'},
-				{word: 'PoisonBY'},
-				{word: 'GriefBY'}
+				{word: 'BoBY'},
+				{word: 'AbBY'},
+				{word: 'SadnBY'},
+				{word: 'PanBY'},
+				{word: 'PoisBY'},
+				{word: 'GrfBY'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
