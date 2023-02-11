@@ -87,7 +87,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					categoryTrials : 0 // Number of trials of the category (in a mini-block). If 0, the label does not appear.
 					//Note: if no category trials, then attribute1, the one on the left, is considered the single attribute.
 				}, 
-			/*	{ 
+				{ 
 					instHTML : '', 
 					block : 2, 
 					miniBlocks : 2, 
@@ -118,7 +118,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					singleAttTrials : 10, 
 					sharedAttTrials : 7, 
 					categoryTrials : 7
-				}*/
+				}
 			],
 			//All blocks show attribute1 on the left and attribute2 on the right. 
 			//blockOrder can be: 'startRight', 'startLeft', and 'random'
